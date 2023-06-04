@@ -600,6 +600,14 @@ video {
   top: 100%;
 }
 
+.top-3 {
+  top: 0.75rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -610,6 +618,11 @@ video {
 
 .z-\[900\] {
   z-index: 900;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mx-8 {
@@ -674,6 +687,22 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -698,6 +727,38 @@ video {
   height: 2.25rem;
 }
 
+.max-h-\[100\] {
+  max-height: 100;
+}
+
+.max-h-\[105px\] {
+  max-height: 105px;
+}
+
+.max-h-\[103px\] {
+  max-height: 103px;
+}
+
+.max-h-\[100px\] {
+  max-height: 100px;
+}
+
+.max-h-\[90px\] {
+  max-height: 90px;
+}
+
+.max-h-\[70px\] {
+  max-height: 70px;
+}
+
+.max-h-\[10px\] {
+  max-height: 10px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -708,6 +769,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[120px\] {
+  max-width: 120px;
 }
 
 .max-w-\[250px\] {
@@ -724,6 +789,34 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+
+.max-w-\[358px\] {
+  max-width: 358px;
+}
+
+.max-w-\[360px\] {
+  max-width: 360px;
+}
+
+.max-w-\[30px\] {
+  max-width: 30px;
+}
+
+.max-w-\[305px\] {
+  max-width: 305px;
+}
+
+.max-w-\[310px\] {
+  max-width: 310px;
 }
 
 .origin-bottom-left {
@@ -778,6 +871,10 @@ video {
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .rounded-full {
@@ -842,6 +939,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-cyan-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 51 68 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 27 75 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -868,6 +975,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -898,6 +1010,10 @@ video {
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
@@ -949,6 +1065,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .leading-relaxed {
@@ -1124,6 +1244,11 @@ body {
     right: 0px;
   }
 
+  .lg\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .lg\:mt-9 {
     margin-top: 2.25rem;
   }
@@ -1184,5 +1309,12 @@ body {
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
